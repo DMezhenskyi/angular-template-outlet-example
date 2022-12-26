@@ -1,0 +1,54 @@
+:host {
+  min-width: 400px;
+  border: #eceff1 1px solid;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.widget-actions {
+  background-color: #fafafa;
+  border-top: #eceff1 1px solid;
+  margin: 0 -10px -10px -10px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.widget-actions button {
+  margin: 0 5px;
+  background-color: #ffd044;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px solid #dba606;
+  color: #4d2e23;
+  font-weight: 600;
+}
+.widget-actions button:hover {
+  background-color: #ffd65c;
+}
+.widget-actions button:active {
+  background-color: #e7b51f;
+}
+.widget-header {
+  border-bottom: #eceff1 1px solid;
+  margin: 0 -10px 0 -10px;
+  padding: 0 15px 15px 15px;
+}
+.widget-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.widget-sub-title {
+  font-size: 13px;
+}
+.widget-content {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sky-condition {
+  font-size: 48px;
+}
