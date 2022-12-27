@@ -45,7 +45,7 @@ export class WeatherWidgetComponent {
   actionTemplate!: TemplateRef<any>;
 
   @Input()
-  contentTemplate!: TemplateRef<WidgetState>;
+  contentTemplate!: TemplateRef<{ $implicit: WidgetState }>;
 
   state = inject(WidgetState);
   actions = inject(WidgetActions);
